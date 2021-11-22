@@ -36,6 +36,10 @@ main .imaTexs{
     object-fit: cover; 
 }
 
+main .totalLogin{
+    padding: 64px 38px 0px 0px;
+}
+
 main .totalLogin .loginTex{
     width: 400px;
     height: auto;
@@ -130,4 +134,69 @@ main .totalLogin .texCreateNewPage a{
     padding-top: 0;
     text-decoration: none;
     font-weight: 600;
+}
+
+@media (min-width: 1075px) {
+    main .mainContainer {
+        margin: 0 auto;
+        padding: 20px 0;
+        position: relative;
+        width: 980px;
+    }
+    main .imaTexs h2 {
+        font-size: 28px;
+        line-height: 28px;  
+        font-weight: normal;
+    }
+    main .imaTexs{
+        width: 548px;
+        height: 400px;
+        border-radius: 20px;
+        object-fit: cover; 
+    }
+    main .imaTexs img {
+        height: 106px;
+        padding: 24px 0 0px;
+    }
+    main .totalLogin{
+        padding: 75px 2px 0px 0px;
+    }
+}
+
+@media (max-width: 940px) {
+    main .mainContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    main .imaTexs h2 {
+        font-size: 24px;
+        line-height: 28px;  
+        width: auto;
+    }
+    main .imaTexs{
+        height: 138px;
+        object-fit: cover; 
+    }
+    main .totalLogin .loginTex{
+        width: 400px;
+        height: auto;
+        border: #dbdddf 2px solid;
+        text-align: center;
+        display: block;
+    
+        align-items: center;
+        background-color: #fff;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        box-sizing: border-box;
+        margin: 40px 0px 0px 30px;
+        padding: 10px 0px 24px 0px;
+        width: 396px;
+    }
+    main .totalLogin .texCreateNewPage p{
+        margin-left: 48px;
+        margin-top: 28px;
+    }
 }
