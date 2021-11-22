@@ -1,0 +1,133 @@
+*{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+main{
+    background: #f0f2f5;
+}
+
+main .imaTexs img {
+    height: 106px;
+    padding: 24px 0 0px;
+    margin: 0 0 -16px -30px;
+}
+
+main .imaTexs h2 {
+    font-size: 26px;
+    line-height: 28px;  
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+main .mainContainer {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    width: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+main .imaTexs{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover; 
+}
+
+main .totalLogin .loginTex{
+    width: 400px;
+    height: auto;
+    border: #dbdddf 2px solid;
+    text-align: center;
+    display: block;
+
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 10px 0 24px;
+    width: 396px;
+}
+
+main .totalLogin .loginTex .login .inputLogin input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin: 5px 0;
+}
+
+main .totalLogin .loginTex .login .buttonLogin button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 362px;
+    color: rgb(255, 255, 255);
+    margin: 12px;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main .totalLogin .loginTex .login .buttonLogin .buttonLoginGreen{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    width: 204px;
+}
+
+main .totalLogin .loginTex .login .lineLoguin{
+    border-bottom: 1px solid #dbdde1;
+    width: 362px;
+    margin: 20px 0px 10px 16px;
+}
+
+main .totalLogin .loginTex .login .forgotLoguin{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main .totalLogin .texCreateNewPage{
+    height: 200px;
+    width: 388px;
+    text-align: center;
+}   
+
+main .totalLogin .texCreateNewPage p{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+main .totalLogin .texCreateNewPage a{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    text-decoration: none;
+    font-weight: 600;
+}
