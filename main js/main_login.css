@@ -64,11 +64,14 @@ main .totalLogin .loginTex .login .inputLogin input{
     width: 330px;
     border-radius: 6px;
     border: 1px solid #dddfe2;
-    color: #1d2129;
     height: 22px;
     line-height: 16px;
     vertical-align: middle;
     margin: 5px 0;
+}
+
+main .totalLogin .loginTex .login .inputLogin input::placeholder{
+    color: #96949c;
 }
 
 main .totalLogin .loginTex .login .buttonLogin button{
