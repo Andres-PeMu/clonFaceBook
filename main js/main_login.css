@@ -153,6 +153,69 @@ main .totalLogin .texCreateNewPage a{
     font-weight: 600;
 }
 
+footer{
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    width: 980px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+footer span{
+    padding: 0;
+}
+
+footer .meta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #737373;
+}
+
+footer a{
+    text-decoration: none;
+    color: #737373;
+}
+
+footer .footerUlTop{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+footer .footerUlTop .espaFooter{
+    padding: 0;
+    color: #737373;
+}
+
+footer .footerUlTop li{
+    padding-left: 12px;
+}
+
+footer .footerUlBottom{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+footer .footerUlBottom li{
+    padding: 4px 20px 4px 0px;
+}
+
+footer .lineLoguin{
+    border-bottom: 1px solid #dbdde1;
+    width: auto;
+    margin: 8px 0px 0px 0px;
+}
+
 @media (min-width: 1075px) {
     main .mainContainer {
         margin: 0 auto;
