@@ -74,6 +74,12 @@ main .totalLogin .loginTex .login .inputLogin input::placeholder{
     color: #96949c;
 }
 
+main .totalLogin .loginTex .login .inputLogin input:focus{
+    border-color: #1a79f2;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #e7f3fe;
+    outline: 0 none;
+}
+
 main .totalLogin .loginTex .login .buttonLogin button{
     background-color: #1877f2;
     border: none;
@@ -89,6 +95,10 @@ main .totalLogin .loginTex .login .buttonLogin button{
     cursor: pointer;
 }
 
+main .totalLogin .loginTex .login .buttonLogin button:hover{
+    background-color: #0360da;
+}
+
 main .totalLogin .loginTex .login .buttonLogin .buttonLoginGreen{
     border: none;
     border-radius: 6px;
@@ -97,6 +107,10 @@ main .totalLogin .loginTex .login .buttonLogin .buttonLoginGreen{
     padding: 0 16px;
     background-color: #42b72a;
     width: 190px;
+}
+
+main .totalLogin .loginTex .login .buttonLogin .buttonLoginGreen:hover{
+    background-color: #32aa1a;
 }
 
 main .totalLogin .loginTex .login .lineLoguin{
