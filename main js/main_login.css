@@ -157,7 +157,7 @@ footer{
     font-size: 12px;
     display: block;
     margin: 0 auto;
-    width: 980px;
+    width: 20px auto;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -241,6 +241,13 @@ footer .lineLoguin{
     main .totalLogin{
         padding: 75px 2px 0px 0px;
     }
+    footer{
+        font-size: 12px;
+        display: block;
+        margin: 0 auto;
+        width: 980px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
 }
 
 @media (max-width: 940px) {
@@ -278,5 +285,12 @@ footer .lineLoguin{
     main .totalLogin .texCreateNewPage p{
         margin-left: 48px;
         margin-top: 28px;
+    }
+    footer{
+        font-size: 12px;
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        font-family: Helvetica, Arial, sans-serif;
     }
 }
